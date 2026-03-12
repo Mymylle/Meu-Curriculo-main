@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+
+
+* {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(313deg, #ffffff, #b39ce8);
+    
+}
+
+section {
+    padding: 28 8%;
+  scroll-margin-top: 120px;
+
+}
+
+.social-media-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.social-media-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: #9491cb;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    box-shadow: 0px 0px 12px 4px rgba(216, 216, 239, 0.364);
+    transition: box-shadow .3s ease, transform .3s ease;
+}
+
+.social-media-buttons a:hover {
+    box-shadow: 0px 0px 12px 4px rgba(143, 83, 186, 0.3);
+    transform: scale(1.1);
+}
+
+.section-title {
+    color:#1d1d1dba;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    padding-bottom: 2.5rem;
+    
+}
+
+.section-subtitle {
+    color:#07191f;
+    font-size: 2rem;
+    padding-top: 5rem;
+}

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+#home {
+    display: flex;
+    min-height: calc(100vh - 78px);
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 5%;
+    padding-left: 0px;
+    margin-left: 120px;
+}
+
+#banner .title{
+    font-size: 4rem;
+    color: black;
+    text-align: justify;
+}
+
+#banner .title span{
+    font-family: "Style Script", cursive;
+    color: #e4e2fa;
+    display: inline; 
+    white-space: wrap;
+    font-size: 6rem;
+    padding-top: 10px;
+}
+
+#banner .description{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+#perfil{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    z-index: 2;
+    margin-right: 0;
+}
+
+#perfil img {
+    height: 32%;
+    width: 40%;
+    border: 3px solid #9971dfd9;
+    border-radius: 200px;
+    margin-left: 280px;
+}
+
+.custom-shape-divider-bottom-1773357974 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1773357974 svg {
+    position: relative;
+    display: block;
+    width: calc(136% + 1.3px);
+    height: 170px;
+}
+
+.custom-shape-divider-bottom-1773357974 .shape-fill {
+    fill: #FFFFFF;
+}
+
+@media screen and (max-width: 1510px) {
+     #banner {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+        margin-top: 0;
+        gap: 25px;
+        margin-left: 0;
+    }
+
+     #banner .title {
+       
+        display: block;
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 1170px) {
+    #home {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        min-height: 100vh;
+        padding-top: 0px;
+    }
+
+    #perfil {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        align-items: flex-start;
+        position: relative;
+        z-index: 2;
+    }
+    
+    #perfil img {
+        width: 190px;
+        height: 206px;
+        border-radius: 100px;
+        margin-top: -100px; /* Sobe a imagem sobre o shape */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        z-index: 3;
+        box-shadow: 0 4px 16px 0 rgba(0,0,0,0.10);
+        background: #fff;
+    }
+ 
+    
+    #banner {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+        margin-top: 0;
+        gap: 25px;
+        margin-left: 0;
+    }
+
+    #banner .title {
+        display: block;
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    #banner .description {
+        font-size: 0.9rem;
+        text-align: justify;
+        margin: 0px 30px;
+    }
+}
