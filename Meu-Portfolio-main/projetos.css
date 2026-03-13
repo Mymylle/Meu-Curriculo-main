@@ -16,6 +16,7 @@
     align-items: center;
     gap: 0;
     margin-top: 10px;
+    
 }
 
 .projeto-item {
@@ -24,11 +25,13 @@
     align-items: left;
     justify-content: left;
     gap: 0px;
-    /*border-radius: 20px;*/
-    height: 600px;
-    width: 100%;
-    padding: 10px;
+    height: 550px;
+    width: 110%;
+    padding: 40px;
     background-color:#ffffffeb;
+    border: 2px dashed #924ccc6f;
+    border-radius: 20px;
+    
     /*box-shadow-top: 0px 0px 12px 4px rgba(0,0,0,0.1);
     bottom: 0;
     /*position: relative;
