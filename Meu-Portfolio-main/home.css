@@ -10,13 +10,13 @@
 }
 
 #banner{
-    width: 50%;
+    width: min(50%,600px);
     display: flex;
     flex-direction: column;
     gap: 30px;
     margin-top: 5%;
-    padding-left: 0px;
-    margin-left: 120px;
+    padding-left: clamp(20px, 4vw, 64px);
+    margin-left: 0;
 }
 
 #banner .title{
@@ -30,14 +30,18 @@
     font-family: "Style Script", cursive;
     color: #e4e2fa;
     display: inline; 
-    white-space: wrap;
+    white-space: nowrap;
     font-size: 6rem;
-    padding-top: 10px;
+    padding-top: 5px;
+    margin-left: 0;
 }
 
 #banner .description{
     font-size: 1.2rem;
     text-align: justify;
+    border: 1px dashed #ffffff6b;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 #perfil{
@@ -53,11 +57,11 @@
 
 .img_perfil {
     height: 40%;
-    width: 50%;
+    width: 60%;
     border: 3px solid #9971dfd9;
     border-radius: 200px;
     margin-left: 220px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
 
 #svg_icons {
@@ -155,14 +159,13 @@
         text-align: center;
         align-items: center;
         justify-content: center;
-        padding-left: 0;
+        padding-left: clamp(20px, 4vw, 48px);
         margin-top: 0;
         gap: 25px;
         margin-left: 0;
     }
 
-     #banner .title {
-       
+     #banner .title {      
         display: block;
         text-align: center;
         font-size: 2rem;
@@ -244,7 +247,8 @@
         text-align: center;
         align-items: center;
         justify-content: center;
-        padding-left: 0;
+        padding-left: 20px;
+        padding-right: 20px;
         margin-top: 0;
         gap: 25px;
         margin-left: 0;
